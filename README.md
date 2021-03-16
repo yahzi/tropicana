@@ -2,13 +2,26 @@
 - **数据结构、算法、操作系统、计算机网络、面向对象编程、设计模式、多线程**等等。
 - Coding能力，**掌握**至少一门开发语言（Java/C++等）。
 - 了解常见的**后台/系统开发技术**，最好阅读过一些项目的源码。
-- https://tech.meituan.com/2020/03/26/meituan-tech-corporate-recruitment.html
-- https://blog.csdn.net/playvscode/article/details/106181522
+
+## 资料库
+- [大厂面试题 2021](https://github.com/0voice/interview_internal_reference/blob/master/README.md)
+- [美团技术团队](https://tech.meituan.com/2020/03/26/meituan-tech-corporate-recruitment.html)
+- [某学渣の后台秋招日记](https://zhuanlan.zhihu.com/p/237740524?utm_source=wechat_session&utm_medium=social&s_r=0)
+- [红衫](https://github.com/scdt-china/interview-assignments)
+- [工具书全集](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-zh.md)
+- [并发编程网](http://ifeve.com/)
+- [牛客](https://www.nowcoder.com/)
+- [互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)
+- [《JavaGuide 面试突击版》](https://github.com/Snailclimb/JavaGuide)
+- [Markdown Online Editor](https://dillinger.io/)
+
 ## 数据结构
 ## 算法
 - 哈希算法
 ## 操作系统
 ## 计算机网络
+- [“三次握手，四次挥手”你真的懂吗？ - 知乎](https://zhuanlan.zhihu.com/p/53374516)
+- [三次握手- 面向信仰编程](https://draveness.me/tags/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
 ## 面向对象编程OOP
 ## 设计模式
 ## 多线程
@@ -20,3 +33,10 @@ https://github.com/Snailclimb/JavaGuide#java
 - Springboot
 - Springcloud
 ## 项目源码
+## MySQL
+- [顺丰快递：请签收MySQL灵魂十连 - 简书](https://www.jianshu.com/p/7193a037b4da)
+- [面试官灵魂拷问：为什么 SQL 语句不要过多的 join？ - 知乎](https://zhuanlan.zhihu.com/p/338373021?utm_source=wechat_session&utm_medium=social&utm_oi=43355929051136&wechatShare=1&s_r=0)
+- [https://blog.csdn.net/lilongsy/article/details/100558721](https://blog.csdn.net/lilongsy/article/details/100558721)
+## 其他
+- [HTTPS与SNI扩展，一个IP绑定多个SSL证书](https://www.ert7.com/service/knowledge/3999.html)
+- [TCP会话劫持](https://mp.weixin.qq.com/s/U0tEoK7w5SRmBpjZM8fsXA)
