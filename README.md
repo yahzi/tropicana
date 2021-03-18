@@ -21,7 +21,9 @@
 ## 操作系统
 ## 计算机网络
 - [“三次握手，四次挥手”你真的懂吗？ - 知乎](https://zhuanlan.zhihu.com/p/53374516)
-- [三次握手- 面向信仰编程](https://draveness.me/tags/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
+- [三次握手 - 面向信仰编程](https://draveness.me/tags/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
+- [为什么 TCP 协议有粘包问题](https://draveness.me/whys-the-design-tcp-message-frame/)
+- [为什么 TCP 协议有性能问题](https://draveness.me/whys-the-design-tcp-performance/)
 ## 面向对象编程OOP
 ## 设计模式
 ## 多线程
