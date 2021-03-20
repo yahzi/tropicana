@@ -4,6 +4,8 @@
 - 了解常见的**后台/系统开发技术**，最好阅读过一些项目的源码。
 
 ## 资料库
+- [后端技术栈](https://github.com/linw7/Skill-Tree)
+- [Java技术笔记](https://github.com/CyC2018/CS-Notes)
 - [大厂面试题 2021](https://github.com/0voice/interview_internal_reference/blob/master/README.md)
 - [美团技术团队](https://tech.meituan.com/2020/03/26/meituan-tech-corporate-recruitment.html)
 - [某学渣の后台秋招日记](https://zhuanlan.zhihu.com/p/237740524?utm_source=wechat_session&utm_medium=social&s_r=0)
@@ -24,6 +26,7 @@
 - [三次握手 - 面向信仰编程](https://draveness.me/tags/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B)
 - [为什么 TCP 协议有粘包问题](https://draveness.me/whys-the-design-tcp-message-frame/)
 - [为什么 TCP 协议有性能问题](https://draveness.me/whys-the-design-tcp-performance/)
+- [为什么 TCP 协议有 TIME_WAIT 状态](https://draveness.me/whys-the-design-tcp-time-wait/)
 ## 面向对象编程OOP
 ## 设计模式
 ## 多线程
