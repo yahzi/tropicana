@@ -34,7 +34,7 @@
             - 半连接队列
                 - SYN flood
             - 连接建立过程状态机
-                ```SYN_SENT/SYN_RCVD/ESTABLISHED```
+                - ```SYN_SENT/SYN_RCVD/ESTABLISHED```
         - 全连接队列
         - 四次挥手
             - 半关闭状态
@@ -55,7 +55,7 @@
         - 可靠性传输
             - 校验和
             - AQR重传
-            - RTT run-trip time
+            - RTT round-trip time
             - RTO
         - 拥塞控制（整个网络）
             - 拥塞避免
