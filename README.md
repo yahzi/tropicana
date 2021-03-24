@@ -34,28 +34,34 @@
             - 半连接队列
                 - SYN flood
             - 连接建立过程状态机
-                - SYN_SENT/SYN_RCVD/ESTABLISHED
+                ```SYN_SENT/SYN_RCVD/ESTABLISHED```
         - 全连接队列
         - 四次挥手
             - 半关闭状态
             - 连接关闭过程状态机
-                - FIN_WAIT_1  ->    CLOSE_WAIT
-                - FIN_WAIT_2  <-  
-                -       (--- TIME PERIOD  ---)
-                -             <-    LAST_ACK
-                - TIME_WAIT   ->    CLOSE
-                - CLOSED
+                ```
+                FIN_WAIT_1  ->    CLOSE_WAIT
+                FIN_WAIT_2  <-  
+                            ...
+                        TIME PERIOD  
+                            ...       
+                            <-    LAST_ACK
+                TIME_WAIT   ->    CLOSED
+                CLOSED
+                ```
             - TIME_WAIT
                 - MSL max segment lifetime
         - TCP报文段首部和数据部分
-        - MSS max segment size
-        - RTT run-trip time
-        - RTO
         - 可靠性传输
+            - 校验和
             - AQR重传
+            - RTT run-trip time
+            - RTO
         - 拥塞控制（整个网络）
             - 拥塞避免
+                - MSS max segment size
             - 慢开始
+            - 快恢复
             - 快重传
             - 流量控制
             - 滑动窗口
