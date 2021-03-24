@@ -27,6 +27,41 @@
 - [为什么 TCP 协议有粘包问题](https://draveness.me/whys-the-design-tcp-message-frame/)
 - [为什么 TCP 协议有性能问题](https://draveness.me/whys-the-design-tcp-performance/)
 - [为什么 TCP 协议有 TIME_WAIT 状态](https://draveness.me/whys-the-design-tcp-time-wait/)
+- 传输层协议
+    - UDP
+    - TCP
+        - 三次握手
+            - 半连接队列
+                - SYN flood
+            - 连接建立过程状态机
+                - SYN_SENT/SYN_RCVD/ESTABLISHED
+        - 全连接队列
+        - 四次挥手
+            - 半关闭状态
+            - 连接关闭过程状态机
+                - FIN_WAIT_1  ->    CLOSE_WAIT
+                - FIN_WAIT_2  <-  
+                -       (--- TIME PERIOD  ---)
+                -             <-    LAST_ACK
+                - TIME_WAIT   ->    CLOSE
+                - CLOSED
+            - TIME_WAIT
+                - MSL max segment lifetime
+        - TCP报文段首部和数据部分
+        - MSS max segment size
+        - RTT run-trip time
+        - RTO
+        - 可靠性传输
+            - AQR重传
+        - 拥塞控制（整个网络）
+            - 拥塞避免
+            - 慢开始
+            - 快重传
+            - 流量控制
+            - 滑动窗口
+        - 发送窗口和接收窗口(点对点)
+- 应用层协议
+    - HTTP
 ## 面向对象编程OOP
 ## 设计模式
 ## 多线程
