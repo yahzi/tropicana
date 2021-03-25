@@ -56,28 +56,37 @@
             - 校验和
             - AQR重传
             - RTT round-trip time
-            - RTO
+            - RTO re-transmission timeout
+            - RTO = RTT<sub>s</sub>(RTT加权平均往返时间) + 4*RTT<sub>d</sub>(RTT偏差的加权平均值)
+        - 滑动窗口
         - 拥塞控制（整个网络）
             - 拥塞避免
                 - MSS max segment size
-            - 慢开始
+            - 慢开始 cwnd=1 
             - 快恢复
             - 快重传
-            - 流量控制
+        - 流量控制
             - 滑动窗口
-        - 发送窗口和接收窗口(点对点)
+            - 发送窗口和接收窗口(点对点)
 - 应用层协议
     - HTTP
+    - HTTPS
 ## 面向对象编程OOP
 ## 设计模式
 ## 多线程
 
 ## Java 基础
 https://github.com/Snailclimb/JavaGuide#java
+## 应用范例
+- SSO单点登录
+- 短地址服务
 ## 后台/系统开发技术
 - Dubbo
 - Springboot
 - Springcloud
+- Kafka
+- Docker K8S
+- tcpdump/cap/
 ## 项目源码
 ## MySQL
 - [顺丰快递：请签收MySQL灵魂十连 - 简书](https://www.jianshu.com/p/7193a037b4da)
