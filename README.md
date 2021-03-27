@@ -120,6 +120,16 @@
                 MD5加密的报文被篡改后，可以重新计算MD5值而不被发现。
                 报文摘要即便被篡改，由于重新计算摘要需要明文，且解密成明文十分困难，加大了篡改成本。
                 ```
+    - Socket
+        - I/O 模型
+            - (sync&block)阻塞式 I/O （recvfrom期间不消耗cpu）
+            - (sync&unblock)非阻塞式 I/O（询问消耗cpu）
+            - (sync&block)复用/事件驱动 I/O（轮询）
+            - (sync&unblock)信号驱动 I/O （sigaction系统发送SIGIO, cpu利用率相较前两种更高）
+            - (async&unblock)异步 I/O （aio_read， 和信号驱动不同的是kernel在copy compelte后才发送信号）
+        - sync和async的区别：在数据从kernel buff往application buff进行copy时（第二阶段)会不会阻塞住进程
+        - block和unblock的区别：在等待I/O数据准备阶段（第一阶段)会不会阻塞
+        
     - 代理
         - 正向代理
             - 为了解决访问不到而架设的请求跳转代理服务器，比如VPN，一般由客户端设置。
