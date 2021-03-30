@@ -129,7 +129,12 @@
             - (async&unblock)异步 I/O （aio_read， 和信号驱动不同的是kernel在copy compelte后才发送信号）
         - sync和async的区别：在数据从kernel buff往application buff进行copy时（第二阶段)会不会阻塞住进程
         - block和unblock的区别：在等待I/O数据准备阶段（第一阶段)会不会阻塞
-        
+        - select 多操作系统适用 精确到微秒（核反应堆）有文件描述符数量限制
+        - poll 较新的系统适用 不会修改描述符 没有描述符数量限制
+        - epoll Linux系统适用 速度较块 没有描述符数量限制 已注册的描述符存放在内核的红黑树 不需要轮询 通过回调来通知进程 
+            - 有LT（level trigger）和 ET（edge trigger）两种模式
+            - LT 支持blocking/no-blocking，当epoll_wait()检测到描述符事件到达，会通知进程，且可以不阻塞
+            - ET 只支持no-blocking 通知进程描述符事件到达后，需要马上处理，且不会再行通知，减少资源浪费，避免重复epoll
     - 代理
         - 正向代理
             - 为了解决访问不到而架设的请求跳转代理服务器，比如VPN，一般由客户端设置。
